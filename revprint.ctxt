@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=revprint
+comment0.text=\r\n\ Write\ a\ method\ to\ accept\ a\ word\ and\ print\ it\ in\ the\ following\ way\:\ Parameter->\ \ \ \ \ TRIAL\ \ \r\n\r\nOutput->\ \ \ \ \ \r\nL\ \ \ \ \ \ \ \ \r\n\r\nAL\ \ \ \ \ \ \ \ \r\n\r\nIAL\ \ \ \ \ \ \ \ \r\n\r\nRIAL\ \ \ \ \ \ \ \ \r\n\r\nTRIAL\ \r\n
+comment1.params=s
+comment1.target=void\ main(java.lang.String)
+numComments=2
