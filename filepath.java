@@ -22,7 +22,7 @@ public class filepath
         char dotsep = '.';
         int pathsepidx = fp.lastIndexOf(pathsep);
         int dotsepidx = fp.lastIndexOf(dotsep);
-        String filep = fp.substring(0,pathsepidx);
+        String filep = fp.substring(0,pathsepidx+1);
         String filename = fp.substring(pathsepidx+1,dotsepidx);
         String ext = fp.substring(dotsepidx+1);
         System.out.println("the file path is: " + filep);
