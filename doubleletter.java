@@ -13,6 +13,17 @@ class doubleletter
     {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter a sentence");
-        
+        String st = sc.nextLine();
+        int len = st.length();
+        int count = 0;
+        st = st.toUpperCase();
+        for (int i = 0; i<(len-1); i++)
+        {
+            if (st.charAt(i) == st.charAt(i+1))
+            {
+                count++;
+            }
+        }
+        System.out.println("No of double letter sequences : " + count); 
     }
 }
